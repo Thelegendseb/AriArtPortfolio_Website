@@ -1,0 +1,322 @@
+[00:00:01.886] Server  LOG      ✓ Ready in 1349ms
+[00:00:08.298] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:45.795] Server  LOG      ✓ Compiled in 40ms
+[00:01:47.836] Server  LOG      ✓ Compiled in 32ms
+[00:07:02.296] Server  LOG      ✓ Compiled in 38ms
+[00:07:25.433] Server  LOG      ✓ Compiled in 38ms
+[00:07:26.873] Browser WARN    Image with src "/art/3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:07:26.873] Browser WARN    Image with src "/art/2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:07:26.873] Browser WARN    Image with src "/art/1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:07:26.873] Browser WARN    Image with src "/art/4.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:07:41.486] Server  LOG      ✓ Compiled in 40ms
+[00:12:16.796] Server  LOG      ✓ Compiled in 44ms
+[00:12:30.455] Server  LOG      ✓ Compiled in 46ms
+[00:12:43.147] Server  LOG      ✓ Compiled in 49ms
+[00:12:51.776] Server  LOG      ✓ Compiled in 37ms
+[00:13:15.257] Server  LOG      ✓ Compiled in 30ms
+[00:13:23.862] Server  LOG      ✓ Compiled in 34ms
+[00:13:32.637] Server  LOG      ✓ Compiled in 29ms
+[00:13:44.761] Server  LOG      ✓ Compiled in 87ms
+[00:13:58.320] Server  LOG      ✓ Compiled in 36ms
+[00:14:09.913] Server  LOG      ✓ Compiled in 39ms
+[00:14:22.108] Server  LOG      ✓ Compiled in 52ms
+[00:14:39.406] Server  LOG      ✓ Compiled in 33ms
+[00:15:11.898] Server  LOG      ✓ Compiled in 43ms
+[00:15:12.145] Server  LOG      ✓ Compiled in 59ms
+[00:19:20.595] Server  LOG      ✓ Compiled in 51ms
+[00:19:34.740] Server  LOG      ✓ Compiled in 35ms
+[00:20:28.926] Server  LOG      ✓ Compiled in 30ms
+[00:23:47.540] Server  LOG      ✓ Compiled in 39ms
+[00:26:13.056] Server  LOG      ✓ Compiled in 53ms
+[00:26:34.552] Server  LOG      ✓ Compiled in 39ms
+[00:26:46.904] Server  LOG      ✓ Compiled in 36ms
+[00:29:59.878] Server  LOG      ✓ Compiled in 80ms
+[00:32:57.092] Server  LOG      ✓ Compiled in 45ms
+[00:35:25.349] Server  LOG      ✓ Compiled in 116ms
+[00:36:05.343] Server  LOG      ✓ Compiled in 35ms
+[00:36:41.459] Server  LOG      ✓ Compiled in 41ms
+[00:38:15.692] Server  LOG      ✓ Compiled in 91ms
+[00:46:22.477] Server  LOG      ✓ Compiled in 101ms
+[00:46:22.599] Browser ERROR   ./app/globals.css:215:8
+Parsing CSS source code failed
+  213 |   }
+  214 | }
+> 215 | @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+      |        ^
+  216 | :root {
+  217 |   --background: #4a0b0b;
+  218 |   --foreground: #f5efe6;
+
+@import rules must precede all rules aside from @charset and @layer statements
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:46:37.247] Server  LOG      ✓ Compiled in 51ms
+[00:46:37.354] Browser ERROR   ./app/globals.css:215:8
+Parsing CSS source code failed
+  213 |   }
+  214 | }
+> 215 | @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+      |        ^
+  216 | :root {
+  217 |   --background: #4a0b0b;
+  218 |   --foreground: #f5efe6;
+
+@import rules must precede all rules aside from @charset and @layer statements
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:46:45.969] Server  LOG      ✓ Compiled in 43ms
+[00:46:46.077] Browser ERROR   ./app/globals.css:215:8
+Parsing CSS source code failed
+  213 |   }
+  214 | }
+> 215 | @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+      |        ^
+  216 | :root {
+  217 |   --background: #4a0b0b;
+  218 |   --foreground: #f5efe6;
+
+@import rules must precede all rules aside from @charset and @layer statements
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:47:12.090] Server  ERROR    ⨯ ./app/globals.css:215:8
+Parsing CSS source code failed
+  213 |   }
+  214 | }
+> 215 | @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+      |        ^
+  216 | :root {
+  217 |   --background: #4a0b0b;
+  218 |   --foreground: #f5efe6;
+
+@import rules must precede all rules aside from @charset and @layer statements
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+
+[00:47:12.228] Browser ERROR   ./app/globals.css:215:8
+Parsing CSS source code failed
+  213 |   }
+  214 | }
+> 215 | @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+      |        ^
+  216 | :root {
+  217 |   --background: #4a0b0b;
+  218 |   --foreground: #f5efe6;
+
+@import rules must precede all rules aside from @charset and @layer statements
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:47:12.790] Browser ERROR   ./app/globals.css:215:8
+Parsing CSS source code failed
+  213 |   }
+  214 | }
+> 215 | @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+      |        ^
+  216 | :root {
+  217 |   --background: #4a0b0b;
+  218 |   --foreground: #f5efe6;
+
+@import rules must precede all rules aside from @charset and @layer statements
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:47:12.897] Browser ERROR   ./app/globals.css:215:8
+Parsing CSS source code failed
+  213 |   }
+  214 | }
+> 215 | @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+      |        ^
+  216 | :root {
+  217 |   --background: #4a0b0b;
+  218 |   --foreground: #f5efe6;
+
+@import rules must precede all rules aside from @charset and @layer statements
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:47:13.421] Browser ERROR   ./app/globals.css:215:8
+Parsing CSS source code failed
+  213 |   }
+  214 | }
+> 215 | @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+      |        ^
+  216 | :root {
+  217 |   --background: #4a0b0b;
+  218 |   --foreground: #f5efe6;
+
+@import rules must precede all rules aside from @charset and @layer statements
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:47:13.622] Browser ERROR   uncaughtError: Error: ./app/globals.css:215:8
+Parsing CSS source code failed
+  213 |   }
+  214 | }
+> 215 | @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+      |        ^
+  216 | :root {
+  217 |   --background: #4a0b0b;
+  218 |   --foreground: #f5efe6;
+
+@import rules must precede all rules aside from @charset and @layer statements
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+
+[00:47:13.798] Browser ERROR   ./app/globals.css:215:8
+Parsing CSS source code failed
+  213 |   }
+  214 | }
+> 215 | @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+      |        ^
+  216 | :root {
+  217 |   --background: #4a0b0b;
+  218 |   --foreground: #f5efe6;
+
+@import rules must precede all rules aside from @charset and @layer statements
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:47:13.798] Browser ERROR   ./app/globals.css:215:8
+Parsing CSS source code failed
+  213 |   }
+  214 | }
+> 215 | @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+      |        ^
+  216 | :root {
+  217 |   --background: #4a0b0b;
+  218 |   --foreground: #f5efe6;
+
+@import rules must precede all rules aside from @charset and @layer statements
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:47:13.798] Browser ERROR   ./app/globals.css:215:8
+Parsing CSS source code failed
+  213 |   }
+  214 | }
+> 215 | @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+      |        ^
+  216 | :root {
+  217 |   --background: #4a0b0b;
+  218 |   --foreground: #f5efe6;
+
+@import rules must precede all rules aside from @charset and @layer statements
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:47:13.798] Browser ERROR   ./app/globals.css:215:8
+Parsing CSS source code failed
+  213 |   }
+  214 | }
+> 215 | @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+      |        ^
+  216 | :root {
+  217 |   --background: #4a0b0b;
+  218 |   --foreground: #f5efe6;
+
+@import rules must precede all rules aside from @charset and @layer statements
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:47:13.798] Browser ERROR   ./app/globals.css:215:8
+Parsing CSS source code failed
+  213 |   }
+  214 | }
+> 215 | @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+      |        ^
+  216 | :root {
+  217 |   --background: #4a0b0b;
+  218 |   --foreground: #f5efe6;
+
+@import rules must precede all rules aside from @charset and @layer statements
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:47:13.798] Browser ERROR   ./app/globals.css:215:8
+Parsing CSS source code failed
+  213 |   }
+  214 | }
+> 215 | @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+      |        ^
+  216 | :root {
+  217 |   --background: #4a0b0b;
+  218 |   --foreground: #f5efe6;
+
+@import rules must precede all rules aside from @charset and @layer statements
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:47:13.798] Browser ERROR   ./app/globals.css:215:8
+Parsing CSS source code failed
+  213 |   }
+  214 | }
+> 215 | @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+      |        ^
+  216 | :root {
+  217 |   --background: #4a0b0b;
+  218 |   --foreground: #f5efe6;
+
+@import rules must precede all rules aside from @charset and @layer statements
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:47:59.275] Server  LOG      ✓ Compiled in 71ms
+[00:47:59.849] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:48:00.073] Browser WARN    Image with src "/art/1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:48:00.073] Browser WARN    Image with src "/art/2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:48:00.073] Browser WARN    Image with src "/art/3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:49:42.903] Server  LOG      ✓ Compiled in 35ms
+[00:49:50.765] Server  LOG      ✓ Compiled in 40ms
+[00:51:10.042] Server  LOG      ✓ Compiled in 36ms
+[00:53:50.378] Server  LOG      ✓ Compiled in 72ms
+[00:53:58.275] Server  LOG      ✓ Compiled in 40ms
+[00:54:34.873] Browser WARN    Image with src "/art/4.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:20:37.700] Server  LOG      ✓ Compiled in 47ms
+[01:20:45.473] Server  LOG      ✓ Compiled in 36ms
+[01:20:45.574] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/me.npg" "received" null
+[01:21:06.427] Server  LOG      ✓ Compiled in 43ms
+[01:21:14.462] Server  LOG      ✓ Compiled in 51ms
+[01:21:15.869] Browser WARN    Image with src "/me.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:26:18.997] Server  LOG      ✓ Compiled in 41ms
+[01:26:27.095] Server  LOG      ✓ Compiled in 43ms
+[01:26:49.770] Server  LOG      ✓ Compiled in 46ms
+[01:26:57.923] Server  LOG      ✓ Compiled in 42ms
