@@ -238,13 +238,13 @@ export default function Home() {
         {/* Hero Section */}
         <HeroSection>
         <HeroBackground>
-          <Image
+          {/* <Image
             src="/placeholder.svg?height=1080&width=1920"
             alt="Featured artwork"
             fill
             className="object-cover"
             priority
-          />
+          /> */}
         </HeroBackground>
         <HeroContent>
           <HeroTitle>
